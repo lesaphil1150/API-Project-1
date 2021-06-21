@@ -1,0 +1,38 @@
+body {
+  font-family: "Spartan", sans-serif;
+  background-image: url(/Assignments/API-3/3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  border-bottom: black 2px solid;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.button {
+  background-color: #e07a5f;
+  border: black 2px solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  font-family: "Spartan", sans-serif;
+  transition-property: background;
+}
+
+button:hover {
+  background: #81b29a;
+}
